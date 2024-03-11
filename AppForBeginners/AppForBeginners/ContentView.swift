@@ -8,12 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var currentDate = Date()
     var body: some View {
-        Text("Vaishnavi").padding()
-            .background(Color(.blue))
+       
+        VStack {
+            DatePicker("", selection: $currentDate, displayedComponents: [.date, .hourAndMinute])
+                .labelsHidden()
+        }
         
-        
-        
+      
+            
+            
+            
+            
+           
     }
 }
 
