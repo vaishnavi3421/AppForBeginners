@@ -12,6 +12,8 @@
 		5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */; };
 		5F4CFF872B8E2C1400EA2C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CFF862B8E2C1400EA2C60 /* Assets.xcassets */; };
 		5F4CFF8A2B8E2C1400EA2C60 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CFF892B8E2C1400EA2C60 /* Preview Assets.xcassets */; };
+		5F7CFF4B2BA0406800F46694 /* NavigationVIewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CFF4A2BA0406800F46694 /* NavigationVIewExample.swift */; };
+		5F7CFF4D2BA0642B00F46694 /* SwiftUiMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CFF4C2BA0642B00F46694 /* SwiftUiMVVM.swift */; };
 		5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F957D862B9CCB92002DDA90 /* BasicOfClosere.swift */; };
 		5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F957D882B9D80B9002DDA90 /* Basics.swift */; };
 /* End PBXBuildFile section */
@@ -23,6 +25,8 @@
 		5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5F4CFF862B8E2C1400EA2C60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4CFF892B8E2C1400EA2C60 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F7CFF4A2BA0406800F46694 /* NavigationVIewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVIewExample.swift; sourceTree = "<group>"; };
+		5F7CFF4C2BA0642B00F46694 /* SwiftUiMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMVVM.swift; sourceTree = "<group>"; };
 		5F957D862B9CCB92002DDA90 /* BasicOfClosere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOfClosere.swift; sourceTree = "<group>"; };
 		5F957D882B9D80B9002DDA90 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -49,6 +53,7 @@
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
+				5F7CFF492BA0403300F46694 /* TutorialSwiftUI */,
 				5F04C2782B9F29710098B606 /* Login page */,
 				5F957D832B9CCA00002DDA90 /* closurreExamples */,
 				5F4CFF812B8E2C1200EA2C60 /* AppForBeginners */,
@@ -81,6 +86,15 @@
 				5F4CFF892B8E2C1400EA2C60 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F7CFF492BA0403300F46694 /* TutorialSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5F7CFF4A2BA0406800F46694 /* NavigationVIewExample.swift */,
+				5F7CFF4C2BA0642B00F46694 /* SwiftUiMVVM.swift */,
+			);
+			path = TutorialSwiftUI;
 			sourceTree = "<group>";
 		};
 		5F957D832B9CCA00002DDA90 /* closurreExamples */ = {
@@ -162,10 +176,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F7CFF4B2BA0406800F46694 /* NavigationVIewExample.swift in Sources */,
 				5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */,
 				5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */,
 				5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */,
 				5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */,
+				5F7CFF4D2BA0642B00F46694 /* SwiftUiMVVM.swift in Sources */,
 				5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
