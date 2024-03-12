@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */; };
 		5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */; };
 		5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */; };
 		5F4CFF872B8E2C1400EA2C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CFF862B8E2C1400EA2C60 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUI.swift; sourceTree = "<group>"; };
 		5F4CFF7F2B8E2C1200EA2C60 /* AppForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppForBeginnersApp.swift; sourceTree = "<group>"; };
 		5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,9 +38,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F04C2782B9F29710098B606 /* Login page */ = {
+			isa = PBXGroup;
+			children = (
+				5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */,
+			);
+			path = "Login page";
+			sourceTree = "<group>";
+		};
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
+				5F04C2782B9F29710098B606 /* Login page */,
 				5F957D832B9CCA00002DDA90 /* closurreExamples */,
 				5F4CFF812B8E2C1200EA2C60 /* AppForBeginners */,
 				5F4CFF802B8E2C1200EA2C60 /* Products */,
@@ -155,6 +166,7 @@
 				5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */,
 				5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */,
 				5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */,
+				5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
