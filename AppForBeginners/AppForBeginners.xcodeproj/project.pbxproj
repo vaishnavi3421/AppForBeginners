@@ -21,8 +21,13 @@
 		5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F957D882B9D80B9002DDA90 /* Basics.swift */; };
 		5FAF116C2BA424A4005DBA83 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF116B2BA424A4005DBA83 /* GridView.swift */; };
 		5FAF116F2BA4C818005DBA83 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF116E2BA4C818005DBA83 /* CustomTabBar.swift */; };
+		5FAF8C8E2BAB5FD700925F1C /* initializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C8D2BAB5FD700925F1C /* initializerBootcamp.swift */; };
+		5FAF8C912BAC0FB700925F1C /* deepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C902BAC0FB700925F1C /* deepLinking.swift */; };
+		5FAF8C932BAD6A0200925F1C /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */; };
+		5FAF8C952BAD6DD300925F1C /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */; };
 		5FEC00042BA8DFEC0090EA0B /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */; };
 		5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00062BA8E0D90090EA0B /* Post.swift */; };
+		5FEC000A2BA8E49A0090EA0B /* ContentView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00092BA8E49A0090EA0B /* ContentView11.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +46,13 @@
 		5F957D882B9D80B9002DDA90 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		5FAF116B2BA424A4005DBA83 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		5FAF116E2BA4C818005DBA83 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		5FAF8C8D2BAB5FD700925F1C /* initializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = initializerBootcamp.swift; sourceTree = "<group>"; };
+		5FAF8C902BAC0FB700925F1C /* deepLinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepLinking.swift; sourceTree = "<group>"; };
+		5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
+		5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
 		5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView44.swift; sourceTree = "<group>"; };
 		5FEC00062BA8E0D90090EA0B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		5FEC00092BA8E49A0090EA0B /* ContentView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView11.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +77,8 @@
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
+				5FAF8C8F2BAC0F9900925F1C /* DeepLinking  */,
+				5FAF8C8C2BAB5F4000925F1C /* SswiftFul Thinking */,
 				5FEC00022BA8DFB40090EA0B /* APICalling */,
 				5F7CFF492BA0403300F46694 /* TutorialSwiftUI */,
 				5F04C2782B9F29710098B606 /* Login page */,
@@ -150,9 +162,35 @@
 			path = CustomAnimatedTabBarView;
 			sourceTree = "<group>";
 		};
+		5FAF8C8C2BAB5F4000925F1C /* SswiftFul Thinking */ = {
+			isa = PBXGroup;
+			children = (
+				5FAF8C8D2BAB5FD700925F1C /* initializerBootcamp.swift */,
+				5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */,
+				5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */,
+			);
+			path = "SswiftFul Thinking";
+			sourceTree = "<group>";
+		};
+		5FAF8C8F2BAC0F9900925F1C /* DeepLinking  */ = {
+			isa = PBXGroup;
+			children = (
+				5FAF8C902BAC0FB700925F1C /* deepLinking.swift */,
+			);
+			path = "DeepLinking ";
+			sourceTree = "<group>";
+		};
+		5FAF8C962BAD752700925F1C /* LoadingAndCatchingImagesInUrl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LoadingAndCatchingImagesInUrl;
+			sourceTree = "<group>";
+		};
 		5FEC00022BA8DFB40090EA0B /* APICalling */ = {
 			isa = PBXGroup;
 			children = (
+				5FEC00082BA8E21A0090EA0B /* ApiCall2 */,
 				5FEC00052BA8E0A90090EA0B /* ApiCall1 */,
 			);
 			path = APICalling;
@@ -165,6 +203,15 @@
 				5FEC00062BA8E0D90090EA0B /* Post.swift */,
 			);
 			path = ApiCall1;
+			sourceTree = "<group>";
+		};
+		5FEC00082BA8E21A0090EA0B /* ApiCall2 */ = {
+			isa = PBXGroup;
+			children = (
+				5FAF8C962BAD752700925F1C /* LoadingAndCatchingImagesInUrl */,
+				5FEC00092BA8E49A0090EA0B /* ContentView11.swift */,
+			);
+			path = ApiCall2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,12 +284,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FAF8C912BAC0FB700925F1C /* deepLinking.swift in Sources */,
 				5F7CFF4B2BA0406800F46694 /* NavigationVIewExample.swift in Sources */,
 				5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */,
 				5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */,
 				5FAF116C2BA424A4005DBA83 /* GridView.swift in Sources */,
 				5FAF116F2BA4C818005DBA83 /* CustomTabBar.swift in Sources */,
 				5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */,
+				5FAF8C952BAD6DD300925F1C /* ScrollViewBootcamp.swift in Sources */,
 				5F4E81642BA3EDD100605399 /* ContentView2.swift in Sources */,
 				5F4E81622BA3EC6D00605399 /* Info.swift in Sources */,
 				5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */,
@@ -250,7 +299,10 @@
 				5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */,
 				5FEC00042BA8DFEC0090EA0B /* ContentView44.swift in Sources */,
 				5F7CFF4D2BA0642B00F46694 /* SwiftUiMVVM.swift in Sources */,
+				5FAF8C8E2BAB5FD700925F1C /* initializerBootcamp.swift in Sources */,
+				5FEC000A2BA8E49A0090EA0B /* ContentView11.swift in Sources */,
 				5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */,
+				5FAF8C932BAD6A0200925F1C /* ForEachBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
