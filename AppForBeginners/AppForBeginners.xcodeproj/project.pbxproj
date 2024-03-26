@@ -82,7 +82,7 @@
 				5FEC00022BA8DFB40090EA0B /* APICalling */,
 				5F7CFF492BA0403300F46694 /* TutorialSwiftUI */,
 				5F04C2782B9F29710098B606 /* Login page */,
-				5F957D832B9CCA00002DDA90 /* closurreExamples */,
+				5F957D832B9CCA00002DDA90 /* closureExamples */,
 				5F4CFF812B8E2C1200EA2C60 /* AppForBeginners */,
 				5F4CFF802B8E2C1200EA2C60 /* Products */,
 			);
@@ -145,13 +145,13 @@
 			path = SwiftUIMVVM;
 			sourceTree = "<group>";
 		};
-		5F957D832B9CCA00002DDA90 /* closurreExamples */ = {
+		5F957D832B9CCA00002DDA90 /* closureExamples */ = {
 			isa = PBXGroup;
 			children = (
 				5F957D862B9CCB92002DDA90 /* BasicOfClosere.swift */,
 				5F957D882B9D80B9002DDA90 /* Basics.swift */,
 			);
-			path = closurreExamples;
+			path = closureExamples;
 			sourceTree = "<group>";
 		};
 		5FAF116D2BA4C7CE005DBA83 /* CustomAnimatedTabBarView */ = {
