@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */; };
+		5F1539772BB42AED007B2AAA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1539762BB42AED007B2AAA /* User.swift */; };
+		5F1539792BB42B69007B2AAA /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F1539782BB42B69007B2AAA /* languages.json */; };
+		5F15397B2BB42F19007B2AAA /* ContentViewforApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15397A2BB42F19007B2AAA /* ContentViewforApi.swift */; };
+		5F15397D2BB442AE007B2AAA /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15397C2BB442AE007B2AAA /* CodableBootcamp.swift */; };
+		5F1539802BB49D00007B2AAA /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15397F2BB49D00007B2AAA /* model.swift */; };
+		5F1539822BB49DB5007B2AAA /* ContentViewURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1539812BB49DB5007B2AAA /* ContentViewURL.swift */; };
+		5F1539862BB4A319007B2AAA /* Creating a form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1539852BB4A319007B2AAA /* Creating a form.swift */; };
+		5F26DAB42BB4C74500680F7F /* modifing a program state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26DAB32BB4C74500680F7F /* modifing a program state.swift */; };
+		5F26DAB62BB4CA0900680F7F /* Binding state to user interface controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26DAB52BB4CA0900680F7F /* Binding state to user interface controls.swift */; };
 		5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */; };
 		5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */; };
 		5F4CFF872B8E2C1400EA2C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CFF862B8E2C1400EA2C60 /* Assets.xcassets */; };
@@ -32,6 +41,15 @@
 
 /* Begin PBXFileReference section */
 		5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUI.swift; sourceTree = "<group>"; };
+		5F1539762BB42AED007B2AAA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5F1539782BB42B69007B2AAA /* languages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = languages.json; sourceTree = "<group>"; };
+		5F15397A2BB42F19007B2AAA /* ContentViewforApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewforApi.swift; sourceTree = "<group>"; };
+		5F15397C2BB442AE007B2AAA /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		5F15397F2BB49D00007B2AAA /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		5F1539812BB49DB5007B2AAA /* ContentViewURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewURL.swift; sourceTree = "<group>"; };
+		5F1539852BB4A319007B2AAA /* Creating a form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Creating a form.swift"; sourceTree = "<group>"; };
+		5F26DAB32BB4C74500680F7F /* modifing a program state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "modifing a program state.swift"; sourceTree = "<group>"; };
+		5F26DAB52BB4CA0900680F7F /* Binding state to user interface controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding state to user interface controls.swift"; sourceTree = "<group>"; };
 		5F4CFF7F2B8E2C1200EA2C60 /* AppForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppForBeginnersApp.swift; sourceTree = "<group>"; };
 		5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,9 +92,37 @@
 			path = "Login page";
 			sourceTree = "<group>";
 		};
+		5F15397E2BB49C87007B2AAA /* ApiCall4(URLSession) */ = {
+			isa = PBXGroup;
+			children = (
+				5F15397F2BB49D00007B2AAA /* model.swift */,
+				5F1539812BB49DB5007B2AAA /* ContentViewURL.swift */,
+			);
+			path = "ApiCall4(URLSession)";
+			sourceTree = "<group>";
+		};
+		5F1539832BB4A275007B2AAA /* Hacking with iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F1539842BB4A2AB007B2AAA /* Project1(Learn the basics ) */,
+			);
+			path = "Hacking with iOS";
+			sourceTree = "<group>";
+		};
+		5F1539842BB4A2AB007B2AAA /* Project1(Learn the basics ) */ = {
+			isa = PBXGroup;
+			children = (
+				5F1539852BB4A319007B2AAA /* Creating a form.swift */,
+				5F26DAB32BB4C74500680F7F /* modifing a program state.swift */,
+				5F26DAB52BB4CA0900680F7F /* Binding state to user interface controls.swift */,
+			);
+			path = "Project1(Learn the basics )";
+			sourceTree = "<group>";
+		};
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
+				5F1539832BB4A275007B2AAA /* Hacking with iOS */,
 				5FAF8C8F2BAC0F9900925F1C /* DeepLinking  */,
 				5FAF8C8C2BAB5F4000925F1C /* SswiftFul Thinking */,
 				5FEC00022BA8DFB40090EA0B /* APICalling */,
@@ -126,6 +172,16 @@
 			path = GridView;
 			sourceTree = "<group>";
 		};
+		5F74D90C2BB37C140089B71E /* ApiCall3 */ = {
+			isa = PBXGroup;
+			children = (
+				5F1539762BB42AED007B2AAA /* User.swift */,
+				5F1539782BB42B69007B2AAA /* languages.json */,
+				5F15397A2BB42F19007B2AAA /* ContentViewforApi.swift */,
+			);
+			path = ApiCall3;
+			sourceTree = "<group>";
+		};
 		5F7CFF492BA0403300F46694 /* TutorialSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +224,7 @@
 				5FAF8C8D2BAB5FD700925F1C /* initializerBootcamp.swift */,
 				5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */,
 				5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */,
+				5F15397C2BB442AE007B2AAA /* CodableBootcamp.swift */,
 			);
 			path = "SswiftFul Thinking";
 			sourceTree = "<group>";
@@ -190,6 +247,8 @@
 		5FEC00022BA8DFB40090EA0B /* APICalling */ = {
 			isa = PBXGroup;
 			children = (
+				5F15397E2BB49C87007B2AAA /* ApiCall4(URLSession) */,
+				5F74D90C2BB37C140089B71E /* ApiCall3 */,
 				5FEC00082BA8E21A0090EA0B /* ApiCall2 */,
 				5FEC00052BA8E0A90090EA0B /* ApiCall1 */,
 			);
@@ -272,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1539792BB42B69007B2AAA /* languages.json in Resources */,
 				5F4CFF8A2B8E2C1400EA2C60 /* Preview Assets.xcassets in Resources */,
 				5F4CFF872B8E2C1400EA2C60 /* Assets.xcassets in Resources */,
 			);
@@ -285,20 +345,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FAF8C912BAC0FB700925F1C /* deepLinking.swift in Sources */,
+				5F1539862BB4A319007B2AAA /* Creating a form.swift in Sources */,
 				5F7CFF4B2BA0406800F46694 /* NavigationVIewExample.swift in Sources */,
 				5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */,
 				5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */,
+				5F26DAB62BB4CA0900680F7F /* Binding state to user interface controls.swift in Sources */,
 				5FAF116C2BA424A4005DBA83 /* GridView.swift in Sources */,
 				5FAF116F2BA4C818005DBA83 /* CustomTabBar.swift in Sources */,
 				5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */,
+				5F26DAB42BB4C74500680F7F /* modifing a program state.swift in Sources */,
 				5FAF8C952BAD6DD300925F1C /* ScrollViewBootcamp.swift in Sources */,
+				5F1539822BB49DB5007B2AAA /* ContentViewURL.swift in Sources */,
+				5F1539772BB42AED007B2AAA /* User.swift in Sources */,
 				5F4E81642BA3EDD100605399 /* ContentView2.swift in Sources */,
 				5F4E81622BA3EC6D00605399 /* Info.swift in Sources */,
 				5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */,
 				5F4E81602BA3EBA500605399 /* ContentView1.swift in Sources */,
+				5F15397D2BB442AE007B2AAA /* CodableBootcamp.swift in Sources */,
 				5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */,
 				5FEC00042BA8DFEC0090EA0B /* ContentView44.swift in Sources */,
+				5F15397B2BB42F19007B2AAA /* ContentViewforApi.swift in Sources */,
 				5F7CFF4D2BA0642B00F46694 /* SwiftUiMVVM.swift in Sources */,
+				5F1539802BB49D00007B2AAA /* model.swift in Sources */,
 				5FAF8C8E2BAB5FD700925F1C /* initializerBootcamp.swift in Sources */,
 				5FEC000A2BA8E49A0090EA0B /* ContentView11.swift in Sources */,
 				5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */,
