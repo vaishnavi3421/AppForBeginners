@@ -1,8 +1,8 @@
 [
     {
-        "name": "John",
-        "designation": "Team Lead",
-        "email": "john@gmail.com"
+        "Name": "John",
+        "Designation": "Team Lead",
+        "Email": "john@gmail.com"
    },
     {
         "name": "Maria",

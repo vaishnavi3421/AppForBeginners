@@ -28,7 +28,7 @@ struct Creating_a_form: View {
                 
             }
             .navigationTitle("SwiftUi")
-            //You can get a small font by adding another modifier:
+            //we can get a small font by adding another modifier:
             .navigationBarTitleDisplayMode(.inline)
         }
     }

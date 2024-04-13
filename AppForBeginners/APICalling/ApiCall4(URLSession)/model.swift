@@ -7,14 +7,19 @@
 
 import Foundation
 
-struct Response: Codable {
-    var result:[model]
+struct User: Codable {
+    enum CodingKeys: String, CodingKey {
+        case name = "Name"
+        case designation = "Designation"
+        case email = "Email"
+    }
+    var id: UUID = UUID()
+    var name: String
+    var designation: String
+    var email: String
+    
 }
-struct model: Codable {
-    var userId: Int
-    var id: Int
-    var title: String
-    var completed: Bool
+class ReadData : ObservableObject {
     
 }
 
