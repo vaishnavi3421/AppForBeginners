@@ -262,3 +262,58 @@ School.add(student: "vaish")
 print(School.studentCount)
 
 //Class
+
+//Protocol
+protocol Vehicle {
+    var name: String { get }
+    var currentPassenger: Int { get set }
+    func estimateTime(for distance: Int) -> Int
+    func travel(distance: Int)
+}
+
+struct Car: Vehicle {
+    let name = "Car"
+    var currentPassenger = 5
+    func estimateTime(for distance: Int) -> Int {
+        distance / 50
+    }
+    func travel(distance: Int) {
+        print("I am driving \(distance) KM")
+    }
+    func openSunroof() {
+        print("Its a nice day")
+    }
+}
+
+struct Bicycle: Vehicle {
+    let name = "bicycle"
+    var currentPassenger = 2
+    func estimateTime(for distance: Int) -> Int {
+        distance / 50
+    }
+    func travel(distance: Int) {
+        print("I am driving \(distance) KM")
+    }
+}
+
+func commute(distance: Int , using vehicle: Vehicle) {
+    if vehicle.estimateTime(for: distance) > 100 {
+        print("Thats too slow! I'll try a different vehicle.")
+    } else {
+        vehicle.travel(distance: distance)
+    }
+}
+
+func getTravelEstimates(using vehicle : [Vehicle] , distance : Int) {
+    for vehicle in vehicle {
+        let estimate = vehicle.estimateTime(for: distance)
+        print("\(vehicle.name) : \(estimate) hours to travel \(distance) km")
+    }
+}
+let car = Car()
+commute(distance: 120, using: car)
+
+let bicycle = Bicycle()
+commute(distance: 30, using: bicycle)
+
+getTravelEstimates(using: [car,bicycle], distance: 150)
