@@ -9,12 +9,6 @@
 /* Begin PBXBuildFile section */
 		5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */; };
 		5F0A4E7A2BBE591800BA32B1 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4E792BBE591800BA32B1 /* File.swift */; };
-		5F0A4E822BBE596D00BA32B1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A4E812BBE596D00BA32B1 /* WidgetKit.framework */; };
-		5F0A4E842BBE596D00BA32B1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F0A4E832BBE596D00BA32B1 /* SwiftUI.framework */; };
-		5F0A4E872BBE596D00BA32B1 /* MigrainBuddyWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4E862BBE596D00BA32B1 /* MigrainBuddyWidgetsBundle.swift */; };
-		5F0A4E892BBE596D00BA32B1 /* MigrainBuddyWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F0A4E882BBE596D00BA32B1 /* MigrainBuddyWidgets.swift */; };
-		5F0A4E8B2BBE596F00BA32B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F0A4E8A2BBE596F00BA32B1 /* Assets.xcassets */; };
-		5F0A4E902BBE596F00BA32B1 /* MigrainBuddyWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5F0A4E7F2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5F1539772BB42AED007B2AAA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1539762BB42AED007B2AAA /* User.swift */; };
 		5F1539792BB42B69007B2AAA /* languages.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F1539782BB42B69007B2AAA /* languages.json */; };
 		5F15397B2BB42F19007B2AAA /* ContentViewforApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F15397A2BB42F19007B2AAA /* ContentViewforApi.swift */; };
@@ -30,6 +24,7 @@
 		5F26DAB42BB4C74500680F7F /* modifing a program state.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26DAB32BB4C74500680F7F /* modifing a program state.swift */; };
 		5F26DAB62BB4CA0900680F7F /* Binding state to user interface controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F26DAB52BB4CA0900680F7F /* Binding state to user interface controls.swift */; };
 		5F2900A92BB57E4000E61515 /* views in a loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2900A82BB57E4000E61515 /* views in a loop.swift */; };
+		5F34FA3A2BEB811900A749C7 /* introduction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F34FA392BEB811900A749C7 /* introduction.swift */; };
 		5F4CFF832B8E2C1200EA2C60 /* AppForBeginnersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */; };
 		5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */; };
 		5F4CFF872B8E2C1400EA2C60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4CFF862B8E2C1400EA2C60 /* Assets.xcassets */; };
@@ -40,6 +35,7 @@
 		5F65D81F2BBC948E00CD5D98 /* SwiftUIViewForWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F65D81E2BBC948E00CD5D98 /* SwiftUIViewForWidgets.swift */; };
 		5F7CFF4B2BA0406800F46694 /* NavigationVIewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CFF4A2BA0406800F46694 /* NavigationVIewExample.swift */; };
 		5F7CFF4D2BA0642B00F46694 /* SwiftUiMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CFF4C2BA0642B00F46694 /* SwiftUiMVVM.swift */; };
+		5F7FEBDC2BD6023F007F7BBA /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FEBDB2BD6023F007F7BBA /* file.swift */; };
 		5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F957D862B9CCB92002DDA90 /* BasicOfClosere.swift */; };
 		5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F957D882B9D80B9002DDA90 /* Basics.swift */; };
 		5FAF116C2BA424A4005DBA83 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF116B2BA424A4005DBA83 /* GridView.swift */; };
@@ -48,20 +44,11 @@
 		5FAF8C912BAC0FB700925F1C /* deepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C902BAC0FB700925F1C /* deepLinking.swift */; };
 		5FAF8C932BAD6A0200925F1C /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */; };
 		5FAF8C952BAD6DD300925F1C /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */; };
+		5FDBE0682BD1748900670BCA /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBE0672BD1748900670BCA /* info.swift */; };
 		5FEC00042BA8DFEC0090EA0B /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */; };
 		5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00062BA8E0D90090EA0B /* Post.swift */; };
 		5FEC000A2BA8E49A0090EA0B /* ContentView11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00092BA8E49A0090EA0B /* ContentView11.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5F0A4E8E2BBE596F00BA32B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F4CFF772B8E2C1200EA2C60 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F0A4E7E2BBE596D00BA32B1;
-			remoteInfo = MigrainBuddyWidgetsExtension;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		5F0A4E942BBE596F00BA32B1 /* Embed Foundation Extensions */ = {
@@ -70,7 +57,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				5F0A4E902BBE596F00BA32B1 /* MigrainBuddyWidgetsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,7 +66,6 @@
 /* Begin PBXFileReference section */
 		5F04C2792B9F29CB0098B606 /* LoginScreenUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenUI.swift; sourceTree = "<group>"; };
 		5F0A4E792BBE591800BA32B1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		5F0A4E7F2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MigrainBuddyWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F0A4E812BBE596D00BA32B1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = /System/Library/Frameworks/WidgetKit.framework; sourceTree = "<absolute>"; };
 		5F0A4E832BBE596D00BA32B1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = /System/Library/Frameworks/SwiftUI.framework; sourceTree = "<absolute>"; };
 		5F0A4E862BBE596D00BA32B1 /* MigrainBuddyWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigrainBuddyWidgetsBundle.swift; sourceTree = "<group>"; };
@@ -103,6 +88,7 @@
 		5F26DAB32BB4C74500680F7F /* modifing a program state.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "modifing a program state.swift"; sourceTree = "<group>"; };
 		5F26DAB52BB4CA0900680F7F /* Binding state to user interface controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding state to user interface controls.swift"; sourceTree = "<group>"; };
 		5F2900A82BB57E4000E61515 /* views in a loop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "views in a loop.swift"; sourceTree = "<group>"; };
+		5F34FA392BEB811900A749C7 /* introduction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = introduction.swift; sourceTree = "<group>"; };
 		5F4CFF7F2B8E2C1200EA2C60 /* AppForBeginners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppForBeginners.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4CFF822B8E2C1200EA2C60 /* AppForBeginnersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppForBeginnersApp.swift; sourceTree = "<group>"; };
 		5F4CFF842B8E2C1200EA2C60 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +100,7 @@
 		5F65D81E2BBC948E00CD5D98 /* SwiftUIViewForWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewForWidgets.swift; sourceTree = "<group>"; };
 		5F7CFF4A2BA0406800F46694 /* NavigationVIewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationVIewExample.swift; sourceTree = "<group>"; };
 		5F7CFF4C2BA0642B00F46694 /* SwiftUiMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiMVVM.swift; sourceTree = "<group>"; };
+		5F7FEBDB2BD6023F007F7BBA /* file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
 		5F957D862B9CCB92002DDA90 /* BasicOfClosere.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicOfClosere.swift; sourceTree = "<group>"; };
 		5F957D882B9D80B9002DDA90 /* Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basics.swift; sourceTree = "<group>"; };
 		5FAF116B2BA424A4005DBA83 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
@@ -122,21 +109,13 @@
 		5FAF8C902BAC0FB700925F1C /* deepLinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepLinking.swift; sourceTree = "<group>"; };
 		5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		5FDBE0672BD1748900670BCA /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 		5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView44.swift; sourceTree = "<group>"; };
 		5FEC00062BA8E0D90090EA0B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		5FEC00092BA8E49A0090EA0B /* ContentView11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView11.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5F0A4E7C2BBE596D00BA32B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0A4E842BBE596D00BA32B1 /* SwiftUI.framework in Frameworks */,
-				5F0A4E822BBE596D00BA32B1 /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F4CFF7C2B8E2C1200EA2C60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,9 +212,20 @@
 			path = Enumeration;
 			sourceTree = "<group>";
 		};
+		5F34FA382BEB80BD00A749C7 /* May 2024 */ = {
+			isa = PBXGroup;
+			children = (
+				5F34FA392BEB811900A749C7 /* introduction.swift */,
+			);
+			path = "May 2024";
+			sourceTree = "<group>";
+		};
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
+				5F34FA382BEB80BD00A749C7 /* May 2024 */,
+				5F7FEBDA2BD5F9EA007F7BBA /* Extensions */,
+				5FDBE0662BD1741A00670BCA /* Lock Screen Widgets in SwiftUI */,
 				5F65D81D2BBC93DB00CD5D98 /* ObservableObject, @Published, and Protocols */,
 				5F1CF2632BBAB5540020E64C /* Enumeration */,
 				5F1539832BB4A275007B2AAA /* Hacking with iOS */,
@@ -256,7 +246,6 @@
 			isa = PBXGroup;
 			children = (
 				5F4CFF7F2B8E2C1200EA2C60 /* AppForBeginners.app */,
-				5F0A4E7F2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -328,6 +317,14 @@
 			path = SwiftUIMVVM;
 			sourceTree = "<group>";
 		};
+		5F7FEBDA2BD5F9EA007F7BBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5F7FEBDB2BD6023F007F7BBA /* file.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		5F957D832B9CCA00002DDA90 /* closureExamples */ = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +368,22 @@
 			path = LoadingAndCatchingImagesInUrl;
 			sourceTree = "<group>";
 		};
+		5FBA94512BD24D6700DE298D /* widgetKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = widgetKit;
+			sourceTree = "<group>";
+		};
+		5FDBE0662BD1741A00670BCA /* Lock Screen Widgets in SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				5FDBE0672BD1748900670BCA /* info.swift */,
+				5FBA94512BD24D6700DE298D /* widgetKit */,
+			);
+			path = "Lock Screen Widgets in SwiftUI";
+			sourceTree = "<group>";
+		};
 		5FEC00022BA8DFB40090EA0B /* APICalling */ = {
 			isa = PBXGroup;
 			children = (
@@ -403,23 +416,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F0A4E7E2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F0A4E912BBE596F00BA32B1 /* Build configuration list for PBXNativeTarget "MigrainBuddyWidgetsExtension" */;
-			buildPhases = (
-				5F0A4E7B2BBE596D00BA32B1 /* Sources */,
-				5F0A4E7C2BBE596D00BA32B1 /* Frameworks */,
-				5F0A4E7D2BBE596D00BA32B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MigrainBuddyWidgetsExtension;
-			productName = MigrainBuddyWidgetsExtension;
-			productReference = 5F0A4E7F2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 		5F4CFF7E2B8E2C1200EA2C60 /* AppForBeginners */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F4CFF8D2B8E2C1400EA2C60 /* Build configuration list for PBXNativeTarget "AppForBeginners" */;
@@ -432,7 +428,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5F0A4E8F2BBE596F00BA32B1 /* PBXTargetDependency */,
 			);
 			name = AppForBeginners;
 			productName = AppForBeginners;
@@ -449,9 +444,6 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					5F0A4E7E2BBE596D00BA32B1 = {
-						CreatedOnToolsVersion = 15.3;
-					};
 					5F4CFF7E2B8E2C1200EA2C60 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
@@ -471,20 +463,11 @@
 			projectRoot = "";
 			targets = (
 				5F4CFF7E2B8E2C1200EA2C60 /* AppForBeginners */,
-				5F0A4E7E2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5F0A4E7D2BBE596D00BA32B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0A4E8B2BBE596F00BA32B1 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F4CFF7D2B8E2C1200EA2C60 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -498,15 +481,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F0A4E7B2BBE596D00BA32B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0A4E892BBE596D00BA32B1 /* MigrainBuddyWidgets.swift in Sources */,
-				5F0A4E872BBE596D00BA32B1 /* MigrainBuddyWidgetsBundle.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5F4CFF7B2B8E2C1200EA2C60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -520,6 +494,7 @@
 				5F957D892B9D80B9002DDA90 /* Basics.swift in Sources */,
 				5F957D872B9CCB92002DDA90 /* BasicOfClosere.swift in Sources */,
 				5F26DAB62BB4CA0900680F7F /* Binding state to user interface controls.swift in Sources */,
+				5F34FA3A2BEB811900A749C7 /* introduction.swift in Sources */,
 				5FAF116C2BA424A4005DBA83 /* GridView.swift in Sources */,
 				5FAF116F2BA4C818005DBA83 /* CustomTabBar.swift in Sources */,
 				5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */,
@@ -530,8 +505,10 @@
 				5F1539772BB42AED007B2AAA /* User.swift in Sources */,
 				5F4E81642BA3EDD100605399 /* ContentView2.swift in Sources */,
 				5F1CF2672BBAB5BE0020E64C /* EnumWithSwitchStatement.swift in Sources */,
+				5F7FEBDC2BD6023F007F7BBA /* file.swift in Sources */,
 				5F4E81622BA3EC6D00605399 /* Info.swift in Sources */,
 				5F4CFF852B8E2C1200EA2C60 /* ContentView.swift in Sources */,
+				5FDBE0682BD1748900670BCA /* info.swift in Sources */,
 				5F4E81602BA3EBA500605399 /* ContentView1.swift in Sources */,
 				5F15397D2BB442AE007B2AAA /* CodableBootcamp.swift in Sources */,
 				5F1CF2602BB6CD910020E64C /* Using stacks to arrange views.swift in Sources */,
@@ -551,91 +528,7 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5F0A4E8F2BBE596F00BA32B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F0A4E7E2BBE596D00BA32B1 /* MigrainBuddyWidgetsExtension */;
-			targetProxy = 5F0A4E8E2BBE596F00BA32B1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		5F0A4E922BBE596F00BA32B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = MigrainBuddyWidgets/MigrainBuddyWidgets.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T37U8PA553;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MigrainBuddyWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MigrainBuddyWidgets;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vaishnavi.AppForBeginners.MigrainBuddyWidgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		5F0A4E932BBE596F00BA32B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_ENTITLEMENTS = MigrainBuddyWidgets/MigrainBuddyWidgets.entitlements;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = T37U8PA553;
-				ENABLE_HARDENED_RUNTIME = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MigrainBuddyWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = MigrainBuddyWidgets;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@executable_path/../../../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vaishnavi.AppForBeginners.MigrainBuddyWidgets;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 		5F4CFF8B2B8E2C1400EA2C60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -818,15 +711,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F0A4E912BBE596F00BA32B1 /* Build configuration list for PBXNativeTarget "MigrainBuddyWidgetsExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F0A4E922BBE596F00BA32B1 /* Debug */,
-				5F0A4E932BBE596F00BA32B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5F4CFF7A2B8E2C1200EA2C60 /* Build configuration list for PBXProject "AppForBeginners" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
