@@ -44,6 +44,7 @@
 		5FAF8C912BAC0FB700925F1C /* deepLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C902BAC0FB700925F1C /* deepLinking.swift */; };
 		5FAF8C932BAD6A0200925F1C /* ForEachBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */; };
 		5FAF8C952BAD6DD300925F1C /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */; };
+		5FB210AC2BF1E2DC0062BD06 /* Class And Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB210AB2BF1E2DC0062BD06 /* Class And Struct.swift */; };
 		5FDBE0682BD1748900670BCA /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBE0672BD1748900670BCA /* info.swift */; };
 		5FEC00042BA8DFEC0090EA0B /* ContentView44.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */; };
 		5FEC00072BA8E0D90090EA0B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEC00062BA8E0D90090EA0B /* Post.swift */; };
@@ -109,6 +110,7 @@
 		5FAF8C902BAC0FB700925F1C /* deepLinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deepLinking.swift; sourceTree = "<group>"; };
 		5FAF8C922BAD6A0200925F1C /* ForEachBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachBootcamp.swift; sourceTree = "<group>"; };
 		5FAF8C942BAD6DD300925F1C /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		5FB210AB2BF1E2DC0062BD06 /* Class And Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Class And Struct.swift"; sourceTree = "<group>"; };
 		5FDBE0672BD1748900670BCA /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 		5FEC00032BA8DFEC0090EA0B /* ContentView44.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView44.swift; sourceTree = "<group>"; };
 		5FEC00062BA8E0D90090EA0B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -212,18 +214,19 @@
 			path = Enumeration;
 			sourceTree = "<group>";
 		};
-		5F34FA382BEB80BD00A749C7 /* May 2024 */ = {
+		5F34FA382BEB80BD00A749C7 /* May 2024 (Interview Preparation */ = {
 			isa = PBXGroup;
 			children = (
 				5F34FA392BEB811900A749C7 /* introduction.swift */,
+				5FB210AB2BF1E2DC0062BD06 /* Class And Struct.swift */,
 			);
-			path = "May 2024";
+			path = "May 2024 (Interview Preparation";
 			sourceTree = "<group>";
 		};
 		5F4CFF762B8E2C1200EA2C60 = {
 			isa = PBXGroup;
 			children = (
-				5F34FA382BEB80BD00A749C7 /* May 2024 */,
+				5F34FA382BEB80BD00A749C7 /* May 2024 (Interview Preparation */,
 				5F7FEBDA2BD5F9EA007F7BBA /* Extensions */,
 				5FDBE0662BD1741A00670BCA /* Lock Screen Widgets in SwiftUI */,
 				5F65D81D2BBC93DB00CD5D98 /* ObservableObject, @Published, and Protocols */,
@@ -521,6 +524,7 @@
 				5F0A4E7A2BBE591800BA32B1 /* File.swift in Sources */,
 				5F2900A92BB57E4000E61515 /* views in a loop.swift in Sources */,
 				5FEC000A2BA8E49A0090EA0B /* ContentView11.swift in Sources */,
+				5FB210AC2BF1E2DC0062BD06 /* Class And Struct.swift in Sources */,
 				5F04C27A2B9F29CB0098B606 /* LoginScreenUI.swift in Sources */,
 				5FAF8C932BAD6A0200925F1C /* ForEachBootcamp.swift in Sources */,
 			);
