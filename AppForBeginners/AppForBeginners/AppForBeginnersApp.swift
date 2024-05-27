@@ -11,7 +11,7 @@ import SwiftUI
 struct AppForBeginnersApp: App {
     var body: some Scene {
         WindowGroup {
-            LoginScreenUI()
+            Userrname()
         }
     }
 }

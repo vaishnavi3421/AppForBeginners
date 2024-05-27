@@ -5,7 +5,8 @@
 //  Created by Sanjay, Vaishnavi on 19/03/24.
 //
 
-
+// Decodable:- downloading the data from the server you have to decode that JSon into your models
+// Encodable:- Codable is when you are uploading something say you are creating a tweet we have to encode the data 
 
 import SwiftUI
 
